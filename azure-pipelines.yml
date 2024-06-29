@@ -6,10 +6,7 @@
 trigger:
 - master
 
-pool:
-  name: DevOpsAgentPool
-  demands: 
-  - Agent.Name -equals AshrafAgent
+pool: DevOpsAgentPool
 
 steps:
 - task: Maven@3
