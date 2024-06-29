@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: DevOpsAgentPool
+  demands: 
+  - Agent.Name -equals AshrafAgent
 
 steps:
 - task: Maven@3
